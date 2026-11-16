@@ -27,7 +27,7 @@ export function App() {
   };
 
   return (
-    <MobileFrame currentTime="2:04">
+    <MobileFrame>
       {activeTab === 'calendar' && (
         <CalendarScreen
           onOpenSmartMemo={handleOpenSmartMemo}
